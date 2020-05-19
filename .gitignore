@@ -1,4 +1,4 @@
 .idea
 *.zip
-./out/*
+!out/*
 .DS_Store
