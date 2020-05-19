@@ -28,7 +28,8 @@ def login(username, passwd, usertype="Student"):
 
 def download(expId, cookies, dst="./out"):
     print("downloading..................")
-    os.system("rm -rf ./out/*")
+    os.system("rm -rf ./out")
+    os.mkdir("./out")
     url = "https://cloud-beihangsoft-cn.e2.buaa.edu.cn/Teacher/downloadAllHomework"
     params = {"expId": expId}
     r = requests.get(url, params=params, cookies=cookies)
