@@ -11,4 +11,4 @@ brew install unar
 # ubuntu下:
 sudo apt-get install unar
 ```
-- 在`Main.py`开头可以修改相应配置然后使用
+- 在`main.py`开头可以修改相应配置然后使用
